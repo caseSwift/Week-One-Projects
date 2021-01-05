@@ -1,0 +1,51 @@
+#con {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    width: 1200px;
+    color: white;
+    background-color: #E0E0E0;
+}
+
+#con h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: 	#101010;
+}
+
+
+
+#con h2 { 
+    font-size: 32px;
+    color: #323232;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h3 {
+    
+        font-size: 30px;
+        color: #323232;
+        font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+}
+
+p {
+    color: #332233;
+    font-family: 'Roboto', sans-serif;
+
+    margin: 30px;
+}
+
+#wikipedia {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 900px;
+    font-size: 24px;
+    color: #2A5DB0;
+}
