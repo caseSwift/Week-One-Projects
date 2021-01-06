@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8em;
+    color: #666;
+    height: 100%;
+}
+
+.img1 {
+    background-image: url('/img/pexels-freestocksorg-133069\ \(1\).jpg');
+    min-height: 100%;
+
+}
+
+.img2 {
+    background-image: url('/img/pexels-pixabay-416160.jpg');
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url('/img/pexels-valeria-boltneva-1805164.jpg');
+    min-height: 400px;
+}
+
+.img1,.img2,.img3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.paratext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.paratext .border {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+
+.paratext .border.trans {
+    background-color: transparent;
+
+
+}
